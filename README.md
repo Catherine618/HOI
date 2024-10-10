@@ -13,24 +13,18 @@ updated at 20240927
 
 # Two-stage Methods
 Consist of object dection (first stage) and interaction prediction (sencond stage). Extract various features like apparence, spatial, pose and semantic features.
-
-Pros: Flexiable architecture, diverse feature combination 
-
-Cons: Computationally expensive, prone to overfitting, lack of context
+- Pros: Flexiable architecture, diverse feature combination 
+- Cons: Computationally expensive, prone to overfitting, lack of context
 
 # One-stage Methods
 Detecting human-object pairs and interaction simultaneously using two parallel branches. Capture contextual information from an early stage.
-
-Pros: Simpler, faster, more efficient, solve sample imbalance
-
-Cons: Need complex post-processing, difficulty in feature unification
+- Pros: Simpler, faster, more efficient, solve sample imbalance
+- Cons: Need complex post-processing, difficulty in feature unification
 
 # End-to-End Methods
 Detect human-object pairs and interaction without post-processing.
-
-Pros: Full context, no need for hand-designed regions
-
-Cons: Require large amount of data
+- Pros: Full context, no need for hand-designed regions
+- Cons: Require large amount of data
 
 
 # LLM based Methods
